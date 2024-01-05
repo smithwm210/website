@@ -137,5 +137,12 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
+.m-page-header__img-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
 
