@@ -3,9 +3,9 @@
   <head>
     <!-- Page setup -->
     <meta charset="utf-8">
-    <title>Perlenspiel</title>
-    <meta name="description" content="website to host Perlenspiel projects">
-    <meta name="author" content="William Smith">
+    <title>Portfolio</title>
+    <meta name="description" content="Game developer portfolio">
+    <meta name="author" content="William Smith, at Worcester Polytechnic Institute">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
   
@@ -28,15 +28,130 @@
   <body>
 
     <header id="header">
-      <h1>William Smith</h1>            
+      <img src="Assets/logoMini.png">
+      <h1>William Smith</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#Games">Games</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Resume">Resume</a></li>
+      </ul>                 
     </header>
    
     <div id="container">
       <div class="inner">
         <div id="content"> 
+          
+          <div id="Games" class="content-region hide">
+            <h2>Games</h2>
             <p>
-              <a href="https://perlenspiel.net/">Dev : Game</a> <br>
-            </p>        
+              <a href="https://smithwm210.github.io/green-wave/Releases-builds/index.html">Apocalypse: Green Wave</a> <br>
+              The 2D platformer and zombie shooter that introduced me to game design with Unity and Github. <br>
+              - Design Lead/Producer <br>
+              - Player control and physics, camera, game systems programming <br>
+              - Original music <br>
+              - Art implementation <br>
+              Phuong Mai Do (pdo@wpi.edu): Lead artist <br>
+              Aidan Bryar (afbryar@wpi.edu): Additional programming <br>
+              <br>
+              Created in Unity <br>
+              <br>
+              Fall 2022 <br>
+              <img src="Assets/green-wave-img1.png">
+            </p>
+            <br>
+            <p>
+              <a href="https://smithwm210.github.io/slid-not-stirred/Releases-builds/index.html">Slid Not Stirred</a> <br>
+              The fast-paced sidescroller where you platform as a glass sliding along the bar, and
+              winning game of IGDA WPI's Cutthroat Game Jam, which had the theme Don't Stop! (~30 participants).
+              My main takeaway from this game was how to be flexible and to adapt within tight deadlines.
+              We were given some fun restrictions like all sound effects originating from our voices, a prominent MS Paint animation, and more! <br>
+              - Level Design <br>
+              - Player damage handling, game systems programming <br>
+              - QA <br>
+              - Audio remastering <br>
+              Jacob Antepli (jaantepli@wpi.edu): Lead programmer and designer <br>
+              Sarah Bodkin (sbodkin@wpi.edu): Art <br>
+              Zach Adams (zadams@wpi.edu): Art <br>
+              <br>
+              Created in Unity <br>
+              <br>
+              April 2023 <br>
+              <img src="Assets/sns-img1.png">
+            </p>
+            <br>
+            <p>
+              <a href="https://smithwm210.github.io/hollow-revival/">Hollow Revival</a> <br>
+              A character-focused narrative fantasy RPG made in two weeks. I honed my leadership skills as we undertook this large project.
+              We each wrote a character quest, and I learned to give up control, trust my teammates, and bring the quests together into a cohesive narrative. <br>
+              - Design Lead <br>
+              - Writer for Porter <br>
+              - Combat design <br>
+              - QA, editing <br>
+              Cierra O'Grady (cmogrady@wpi.edu): Programmer, writer for Quent <br>
+              Owen Pugh (orpugh@wpi.edu): Writer for Cyril <br>
+              Elijah Delcastillo (eedelcastillo@wpi.edu): Writer for Eri <br>
+              <br>
+              Created in Twine <br>
+              <br>
+              December 2023 <br>
+              <img src="Assets/hollowrevival-img1.png">
+            </p>
+          </div>
+          
+          <div id="Projects" class="content-region hide">
+            <h2>Projects</h2>
+            <p>
+              I have been managing a gaming <a href="https://www.youtube.com/@unlimitedwill">YouTube channel</a> for over 6 years.
+              I showcase some of the most difficult and astounding levels made in the Super Mario Maker 2 community, and have amassed over 1000 followers.
+              On average, I upload a new video twice a week and the aspect of this project I'm most proud of is that I've never gone a week without uploading a new video.<br>
+              I also frequently livestream myself playing on <a href="https://www.twitch.tv/unlimitedwill">Twitch</a>. <br>
+              <br>
+              Another one of my passions in gaming is speedrunning. I love delving deeply into the mechanics of a game and finding obscure oversights the devs missed.
+              I have been involved in speedrunning in Super Mario Maker 2, Super Mario Bros, and Mario Wonder,
+              and I was even invited to PACE Summer 2023, a charity event where I played RubberRoss's Mario Maker levels at a break-neck pace.<br>
+              RubberRoss is a well-known YouTuber and streamer notorious for making very hard Mario stages, and he was floored by my ability to circumvent his challenges, as seen below. <br>
+              <br>
+              <video controls width = "280">
+                <source src="Assets/ross-short.mov"/>
+              </video>
+            </p>
+            <p>
+              <br>
+              You can see my full run with his reaction <a href="https://www.youtube.com/watch?v=vs0VaGdlMSE">here</a>
+              or the edited-down version <a href="https://youtu.be/YLGN39DSAt0?si=Aqiz0AdLpsWAPf7Q">here</a>. <br>
+              Offline, I've enjoyed collaborating on several other projects.
+              I led a <a href="https://digital.wpi.edu/show/pz50h184z">project</a> working with the US Forest Service to develop lesson plans for students in New Hampshire.
+              I've always loved being part of a team, devoting several years to football, lacrosse, and basketball teams.
+            </p>
+          </div>
+          
+          <div id="About" class="content-region hide">
+            <h2>About</h2>
+            <p>
+              Hello! My name is Will and I am a student at Worcester Polytechnic Institute in Massachusetts with a passion for game design.
+              So far, I have finished three games in collaboration with other WPI students. I'm pursuing a Technology BS in Interactive Media and Game Development.
+              I'm interested in all aspects of game development, with a primary focus on game programming and design.
+            </p>
+            <p>
+              smithwm210@gmail.com <br>
+              <br>
+              (774) 991-5477 <br>
+              <br>
+              <a href="https://www.linkedin.com/in/william-smith-aa9194240/">LinkedIn</a>
+            </p>
+          </div>
+
+          <div id="Resume" class="content-region hide">
+            <object data="Assets/Resume.pdf" type="application/pdf" width="100%" height="600px">
+            <p>
+              Unable to display PDF file. <a href="Assets/Resume.pdf">Download</a> instead.
+            </p>
+            </object>
+          </div>
+          
         </div>
       </div>
     </div>
