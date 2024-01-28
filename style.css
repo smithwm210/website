@@ -12,7 +12,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+  horizontal-align: middle;
 }
 
 body {
