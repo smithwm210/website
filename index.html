@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <!-- Page setup -->
     <meta charset="utf-8">
@@ -15,14 +15,10 @@
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
    
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./output.css" rel="stylesheet"/>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   
   <body>
@@ -46,69 +42,87 @@
           
           <div id="Games" class="content-region hide">
             <h2>Games</h2>
-            <p>
-              <a href="https://smithwm210.github.io/green-wave/Releases-builds/index.html">Apocalypse: Green Wave</a> <br>
-              The 2D platformer and zombie shooter that introduced me to game design with Unity and Github. <br>
-              - Design Lead/Producer <br>
-              - Player control and physics, camera, game systems programming <br>
-              - Original music <br>
-              - Art implementation <br>
-              Phuong Mai Do (pdo@wpi.edu): Lead artist <br>
-              Aidan Bryar (afbryar@wpi.edu): Additional programming <br>
-              <br>
-              Created in Unity <br>
-              <br>
-              Fall 2022 <br>
-              <img src="Assets/green-wave-img1.png">
-            </p>
-            <br>
-            <p>
-              <a href="https://smithwm210.github.io/slid-not-stirred/Releases-builds/index.html">Slid Not Stirred</a> <br>
-              The fast-paced sidescroller where you platform as a glass sliding along the bar, and
-              winning game of IGDA WPI's Cutthroat Game Jam, which had the theme Don't Stop! (~30 participants).
-              My main takeaway from this game was how to be flexible and to adapt within tight deadlines.
-              We were given some fun restrictions like all sound effects originating from our voices, a prominent MS Paint animation, and more! <br>
-              - Level Design <br>
-              - Player damage handling, game systems programming <br>
-              - QA <br>
-              - Audio remastering <br>
-              Jacob Antepli (jaantepli@wpi.edu): Lead programmer and designer <br>
-              Sarah Bodkin (sbodkin@wpi.edu): Art <br>
-              Zach Adams (zadams@wpi.edu): Art <br>
-              <br>
-              Created in Unity <br>
-              <br>
-              April 2023 <br>
-              <img src="Assets/sns-img1.png">
-            </p>
-            <br>
-            <p>
-              <a href="https://smithwm210.github.io/hollow-revival/">Hollow Revival</a> <br>
-              A character-focused narrative fantasy RPG made in two weeks. I honed my leadership skills as we undertook this large project.
-              We each wrote a character quest, and I learned to give up control, trust my teammates, and bring the quests together into a cohesive narrative. <br>
-              - Design Lead <br>
-              - Writer for Porter <br>
-              - Combat design <br>
-              - QA, editing <br>
-              Cierra O'Grady (cmogrady@wpi.edu): Programmer, writer for Quent <br>
-              Owen Pugh (orpugh@wpi.edu): Writer for Cyril <br>
-              Elijah Delcastillo (eedelcastillo@wpi.edu): Writer for Eri <br>
-              <br>
-              Created in Twine <br>
-              <br>
-              December 2023 <br>
-              <img src="Assets/hollowrevival-img1.png">
-            </p>
-            <br>
-            <p>
-              <a href="https://smithwm210.github.io/perlenspiel/Resources/Cross-Stitchv4/game.html">Cross-Stitch</a> <br>
-              My first solo project! A deceptively simple puzzle game that you can't put down. (I'm super proud of this game) <br>
-              <br>
-              Created with Perlenspiel 3.3 <br>
-              <br>
-              February 2024 <br>
-              <img src="Assets/cross-stitch-img1.png">
-            </p>
+
+            <div class="grid grid-cols-3 gap-10">
+
+              <div>
+                <!--Apocalypse Green Wave-->
+                <p>
+                  <a href="https://smithwm210.github.io/green-wave/Releases-builds/index.html">Apocalypse: Green Wave</a> <br>
+                  The 2D platformer and zombie shooter that introduced me to game design with Unity and Github. <br>
+                  - Design Lead/Producer <br>
+                  - Player control and physics, camera, game systems programming <br>
+                  - Original music <br>
+                  - Art implementation <br>
+                  Phuong Mai Do (pdo@wpi.edu): Lead artist <br>
+                  Aidan Bryar (afbryar@wpi.edu): Additional programming <br>
+                  <br>
+                  Created in Unity <br>
+                  <br>
+                  Fall 2022 <br>
+                  <img src="Assets/green-wave-img1.png" alt="AGW=img">
+                </p>
+              </div>
+
+              <div>
+                <!--Slid Not Stirred-->
+                <p>
+                  <a href="https://smithwm210.github.io/slid-not-stirred/Releases-builds/index.html">Slid Not Stirred</a> <br>
+                  The fast-paced sidescroller where you platform as a glass sliding along the bar, and
+                  winning game of IGDA WPI's Cutthroat Game Jam, which had the theme Don't Stop! (~30 participants).
+                  My main takeaway from this game was how to be flexible and to adapt within tight deadlines.
+                  We were given some fun restrictions like all sound effects originating from our voices, a prominent MS Paint animation, and more! <br>
+                  - Level Design <br>
+                  - Player damage handling, game systems programming <br>
+                  - QA <br>
+                  - Audio remastering <br>
+                  Jacob Antepli (jaantepli@wpi.edu): Lead programmer and designer <br>
+                  Sarah Bodkin (sbodkin@wpi.edu): Art <br>
+                  Zach Adams (zadams@wpi.edu): Art <br>
+                  <br>
+                  Created in Unity <br>
+                  <br>
+                  April 2023 <br>
+                  <img src="Assets/sns-img1.png" alt="SNS-img">
+                </p>
+              </div>
+
+              <div>
+                <!--Hollow Revival-->
+                <p>
+                  <a href="https://smithwm210.github.io/hollow-revival/">Hollow Revival</a> <br>
+                  A character-focused narrative fantasy RPG made in two weeks. I honed my leadership skills as we undertook this large project.
+                  We each wrote a character quest, and I learned to give up control, trust my teammates, and bring the quests together into a cohesive narrative. <br>
+                  - Design Lead <br>
+                  - Writer for Porter <br>
+                  - Combat design <br>
+                  - QA, editing <br>
+                  Cierra O'Grady (cmogrady@wpi.edu): Programmer, writer for Quent <br>
+                  Owen Pugh (orpugh@wpi.edu): Writer for Cyril <br>
+                  Elijah Delcastillo (eedelcastillo@wpi.edu): Writer for Eri <br>
+                  <br>
+                  Created in Twine <br>
+                  <br>
+                  December 2023 <br>
+                  <img src="Assets/hollowrevival-img1.png" alt="HR-img">
+                </p>
+              </div>
+
+              <div>
+                <!--Cross Stitch-->
+                <p>
+                  <a href="https://smithwm210.github.io/perlenspiel/Resources/Cross-Stitchv4/game.html">Cross-Stitch</a> <br>
+                  My first solo project! A deceptively simple puzzle game that you can't put down. (I'm super proud of this game) <br>
+                  <br>
+                  Created with Perlenspiel 3.3 <br>
+                  <br>
+                  February 2024 <br>
+                  <img src="Assets/cross-stitch-img1.png" alt="CS-img">
+                </p>
+              </div>
+
+            </div>
+
           </div>
           
           <div id="Projects" class="content-region hide">
