@@ -149,3 +149,7 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+
+.aboutContainer {
+  display: flex;
+}
